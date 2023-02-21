@@ -17,7 +17,7 @@ export default function App() {
     async function isFirtsLaunched(){
       const appData = await AsyncStorage.getItem('isAppFirstLaunched');
     
-      console.log(appData);
+      // console.log(appData);
       
       if (appData == null) {
         setIsAppFirstLaunched(true)
