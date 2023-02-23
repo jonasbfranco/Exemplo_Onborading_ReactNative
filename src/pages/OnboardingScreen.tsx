@@ -48,6 +48,7 @@ const Slide = ({item}) => {
         </View>
     )
 }
+
 const OnboardingScreen = ({navigation}) => {
 
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0)
